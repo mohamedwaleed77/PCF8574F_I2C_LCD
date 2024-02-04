@@ -10,5 +10,5 @@
 #define LCD_CGRAM_START          		0x40
 #define LCD_SET_CURSOR_LOCATION  		0x80
 
-#define slave_address_fixed_bits	0x20 << 1		//0x20 as A0=A1=A2=0
+#define slave_address_fixed_bits	0x27 << 1		//in this case 
 #endif
